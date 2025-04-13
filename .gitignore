@@ -1,0 +1,61 @@
+# 后端 Java Spring Boot 忽略文件
+
+# 编译输出
+/backend/target/
+/backend/.mvn/wrapper/maven-wrapper.jar
+/backend/*.class
+
+# 日志文件
+/backend/logs/
+/backend/*.log
+
+# 本地配置文件
+/backend/src/main/resources/application-local.properties
+/backend/src/main/resources/application-dev.properties
+
+# IDE 配置文件
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/backend/nbproject/private/
+/backend/nbbuild/
+/backend/dist/
+/backend/nbdist/
+/backend/.nb-gradle/
+
+# 前端 Vue.js 忽略文件
+/new_frontend/node_modules/
+/new_frontend/dist/
+/new_frontend/.cache/
+/new_frontend/npm-debug.log
+/new_frontend/yarn-debug.log
+/new_frontend/yarn-error.log
+/new_frontend/package-lock.json
+/new_frontend/.env.local
+/new_frontend/.env.*.local
+
+# 编辑器目录和文件
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 系统文件
+.DS_Store
+Thumbs.db 
